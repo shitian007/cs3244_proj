@@ -22,5 +22,8 @@ python tensorflow/examples/speech_commands/freeze.py --start_checkpoint=/tmp/spe
 --output_file=<OUTPUT_DIR>/UrbanSound8K/my_frozen_graph.pb
 ```
 
-## Pre-built Frozen Graph
-A pre-trained quantized frozen graph (urban_sounds.pb) at 70% validation-accuracy and the corresponding Android Application is included.
+## Training logs
+The 1-second/2-second training logs for tensorboard are included.
+
+## Frozen-Graph and Application
+A trained quantized frozen graph (urban_sounds.pb) at 70% validation-accuracy for the 1-second trained model and the corresponding Android Application is included.
